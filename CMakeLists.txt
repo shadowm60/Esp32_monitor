@@ -1,0 +1,5 @@
+# Esp32_monitor - general board monitor for the Waveshare ESP32-S3-Touch-LCD-7
+cmake_minimum_required(VERSION 3.16)
+include($ENV{IDF_PATH}/tools/cmake/project.cmake)
+add_compile_options("-Wno-attributes")
+project(esp32_monitor)
